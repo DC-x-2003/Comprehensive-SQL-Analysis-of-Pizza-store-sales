@@ -7,3 +7,25 @@ This project involves a comprehensive analysis of pizza sales data using SQL. Th
 
 ## Datasets
 
+1. Pizzas Dataset
++ pizza_id: Unique identifier for each pizza.
++ pizza_type_id: Identifier linking the pizza to its type.
++ size: Size of the pizza (e.g., Small, Medium, Large).
++ price: Price of the pizza.
+
+2. Pizza Types Dataset 
++ pizza_type_id: Unique identifier for each pizza type.
++ name: Name of the pizza type.
++ category: Category of the pizza (e.g., Vegetarian, Non-Vegetarian).
++ ingredients: Ingredients used in the pizza.
+
+3. Orders Dataset
++ order_id: Unique identifier for each order.
++ date: Date when the order was placed.
++ time: Time when the order was placed.
+
+4. Order Details Dataset
++ order_details_id: Unique identifier for each order detail.
++ order_id: Identifier linking the order to the order details.
++ pizza_id: Identifier linking the order detail to the pizza.
++ quantity: Number of pizzas ordered.
