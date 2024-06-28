@@ -29,3 +29,26 @@ This project involves a comprehensive analysis of pizza sales data using SQL. Th
 + order_id: Identifier linking the order to the order details.
 + pizza_id: Identifier linking the order detail to the pizza.
 + quantity: Number of pizzas ordered.
+
+# SQL Queries
+
+The analysis involves solving a range of SQL queries, from easy to hard, to extract meaningful insights from the data. The queries cover various aspects such as: 
+
++ Total sales by pizza type and size.
++ Most popular pizzas.
++ Sales trends over time.
++ Order frequency and customer preferences.
++ Detailed analysis of ingredients and categories.
+
+# Findings 
+
+Some of the key findings from the analysis include: 
+
++ The most popular pizza types and sizes. 
++ Peak sales periods and trends over time.
++ Customer preferences and ordering patterns.
++ Insights into ingredient usage and pizza categories.
+
+# Contributing 
+
+If you would like to contribute to this project, please fork the repository and submit a pull request. For any issues or suggestions, feel free to open an issue.
